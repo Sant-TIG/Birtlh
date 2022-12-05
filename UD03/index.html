@@ -1,1 +1,74 @@
-
+<!--
+	LMSGI
+	Mi primer sitio web
+	UD02 TE02
+	Santiago Pérez Presencio
+	28/10/2022
+	Link autoevaluacion: https://docs.google.com/document/d/1nl8ulfU2bmNhY-4DELJDkofdcM9WRoeO_M9bNkWLg6Q/edit?usp=sharing
+	Descripcion: pagina principal de la web. Consta de una descripcion de la pagina y proporciona acceso al resto de las paginas.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Styles Conference</title>
+        <link rel="stylesheet" href="css/styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400">
+    </head>
+    <body>
+		<!--Encabezado de la pagina web, consta del logo y la barra de navegación-->
+        <header class="clearfix">
+            <h1 class="logo">
+                <a href="index.html">The James Webb Expedition</a>
+            </h1>
+                <nav class="nav primary-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">Noticias</a></li>
+                        <li><a href="photos.html">Fotos</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+            </nav>
+        </header>
+        <!--Sección de la pagina que contiene una descripción de la misma.-->
+        <section class="description container">
+            <h2>Dedicados a mantenerte informado sobre los descubrimientos del telescopio espacial James Webb.</h2>
+            <p>El sitio web donde encontrarás las últimas noticias relacionadas con los avances, descubrimientos, novedades y más sobre la larga expedición del James Webb. </p>
+            <a href="contact.html" class="btn btn-alt">Contacta con nosotros</a>
+        <!--Sección de la página que organiza el contenido de la pagina y lo resume en dos fotos con una pequeña descripción. -->
+        </section><section class="row">
+            <div class="flex-container">
+                <section class="teaser col-1-2">
+                    <h5 style="text-align: center;">Noticias</h5>
+                    <a href="news.html">
+                        <img src="imgs/noticias.png">
+                        <h3 style="text-align: center;">Últimas noticias</h3>
+                    </a>
+                    <p style="text-align: center;">Conoce las últimas novedades y noticias sobre el James Webb.</p>
+                </section><section class="teaser col-1-2">
+                    <h5 style="text-align: center;">Fotos</h5>
+                    <a href="photos.html">
+                        <img src="imgs/pil3.png">
+                        <h3 style="text-align: center;">Últimas imagenes</h3>
+                    </a>
+                    <p style="text-align: center;">Observa las últimas imagenes procesadas por el James Webb.</p>
+                 </section>
+            </div>
+        </section>
+		<!--Sección de la pagina que representa el pide de pagina, con el simbolo de copyright de la pagina y un pequeño navegador.-->
+		<footer class="primary-footer container group">
+            <small>
+                &copy; Styles Conference
+            </small>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">Noticias</a></li>
+                    <li><a href="photos.html">Fotos</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>

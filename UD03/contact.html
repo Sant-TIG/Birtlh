@@ -1,0 +1,59 @@
+<!--
+	LMSGI
+	Mi primer sitio web
+	UD02 TE02
+	Santiago Pérez Presencio
+	28/10/2022
+	Link autoevaluacion: https://docs.google.com/document/d/1nl8ulfU2bmNhY-4DELJDkofdcM9WRoeO_M9bNkWLg6Q/edit?usp=sharing
+	Descripcion: página que consta de un formulario para poder contactar con el administrador de la pagina web.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Styles Conference</title>
+        <link rel="stylesheet" href="css/styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400">
+    </head>
+    <body>
+		<!--Encabezado de la pagina web, consta del logo y la barra de navegación-->
+        <header class="clearfix">
+            <h1 class="logo">
+                <a href="index.html">The James Webb Expedition</a>
+            </h1>
+                <nav class="nav primary-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">Noticias</a></li>
+                        <li><a href="photos.html">Fotos</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+            </nav>
+        </header>
+		<!--Sección de la pagina que contiene el formulario de contacto. -->
+		<form class="form">
+			<div class="form-container">
+				<h2 class="form-title">Contacta con nosotros</h2>
+				<input type="text" class="form-input" placeholder="Nombre:">
+				<input type="email" class="form-input" placeholder="Email:">
+				<textarea class="form-input form-input-message" placeholder="Mensaje:"></textarea>
+				<input type="submit" value="Enviar" class="form-cta">
+			</div>
+		</form>
+		<!--Sección de la pagina que representa el pide de pagina, con el simbolo de copyright de la pagina y un pequeño navegador.-->
+		<footer class="primary-footer container group">
+            <small>
+                &copy; Styles Conference
+            </small>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">Noticias</a></li>
+                    <li><a href="photos.html">Fotos</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>

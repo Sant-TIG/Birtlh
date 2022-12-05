@@ -1,0 +1,61 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font: 400 15px/1.8 "Lato", sans-serif;
+  }
+/*La propiedad background-attachment determina si la posicion de la imagen de fondo sera fija dentro de la pantalla o se desplazar'a con su bloque anterior. Sus valores pueden ser scroll o fixed
+La propiedad background-position estable la posicion inicial de la imagen de fondo-*/  
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  
+}
+.bgimg-1 {
+	background-image: url("../imgs/galaxia1.png");
+	min-height: 100%;
+}
+  
+.bgimg-2 {
+	background-image: url("../imgs/galaxia2.png");
+	min-height: 500px;
+}
+  
+.bgimg-3 {
+	background-image: url("../imgs/galaxia3.png");
+	min-height: 500px;
+}
+
+.bgimg-4 {
+	background-image: url("../imgs/protoestrella.png");
+	min-height: 500px;
+}
+
+.bgimg-5 {
+	background-image: url("../imgs/pilar3.png");
+	min-height: 500px;
+}
+
+.caption {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+}
+  
+.caption span.border {
+	background-color: transparent;
+	color: #ddd;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+  
+h3 {
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	color: #ddd;
+}
